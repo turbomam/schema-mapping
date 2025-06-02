@@ -1,0 +1,33 @@
+name: mixs-derived
+id: https://w3id.org/mixs-derived
+imports:
+- linkml:types
+prefixes:
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  MIXS:
+    prefix_prefix: MIXS
+    prefix_reference: https://w3id.org/mixs/
+  xsd:
+    prefix_prefix: xsd
+    prefix_reference: http://www.w3.org/2001/XMLSchema#
+  shex:
+    prefix_prefix: shex
+    prefix_reference: http://www.w3.org/ns/shex#
+  schema:
+    prefix_prefix: schema
+    prefix_reference: http://schema.org/
+  SO:
+    prefix_prefix: SO
+    prefix_reference: http://purl.obolibrary.org/obo/SO_
+default_prefix: https://w3id.org/mixs-derived/
+default_range: string
+classes:
+  Biosample:
+    name: Biosample
+    description: MIxS Data that comply with the Mims checklist and the Soil Extension
+    title: Mims combined with Soil
+    in_subset:
+    - combination_classes
+    class_uri: MIXS:0010007_0016012

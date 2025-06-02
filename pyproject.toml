@@ -1,0 +1,10 @@
+[project]
+name = "schema-mapping"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "linkml-map",
+    "jinja2",
+]
