@@ -1,8 +1,8 @@
 MIXS_SCHEMA_URL=https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/refs/heads/main/src/mixs/schema/mixs.yaml
 MIXS_SCHEMA_FILE=mixs.yaml
 
-LINKML_META_URL=https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/meta.yaml
-LINKML_META_FILE=meta.yaml
+#LINKML_META_URL=https://raw.githubusercontent.com/linkml/linkml-model/refs/heads/main/linkml_model/model/schema/meta.yaml
+#LINKML_META_FILE=meta.yaml
 
 .PHONY: download-mixs
 mixs.yaml:
